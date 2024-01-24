@@ -3,7 +3,8 @@ import '../calculator.css'
 
 const Calculator = () =>{
 
-    const [result, setResult] = useState<number>(0)
+    const [result, setResult] = useState<number>(0);
+    console.log(setResult);
     return (
         <div className="calculator-layout">
             <div className='calculator-result'>{result}</div>
